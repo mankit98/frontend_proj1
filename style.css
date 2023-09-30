@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: #292828;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url("https://4kwallpapers.com/images/wallpapers/kratos-god-of-war-fortnite-skin-crossover-3840x2160-4858.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+}
+
+#container h1{
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 7px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    color: white;
+}
+
+#boxes{
+    width: 90%;
+    height: 90%;
+    /* background-color: #d00909; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+    margin-right: 8px;
+    position: relative;
+}
+
+#boxes img{    
+    border-radius: 30px;
+}
+
+#box1{
+    width: 7%;
+    height: 500px;
+    /* object-fit: cover; */
+    /* margin-right: 10px; */
+    
+}
+#box2{
+    width: 7%;
+    height: 500px;
+    /* object-fit: cover; */
+    /* margin-right: 10px; */
+}
+#box3{
+    width: 7%;
+    height: 500px;
+    /* margin-right: 10px; */
+    /* object-fit: cover; */
+
+}
+#box4{
+    width: 7%;
+    height: 500px;
+    /* object-fit: cover; */
+    /* margin-right: 10px; */
+
+}
+#box5{
+    width: 7%;
+    /* object-fit: cover; */
+    height: 500px;
+
+}
+
+
+
+
+
+#boxes::-webkit-scrollbar{
+    display: none;
+}
+
